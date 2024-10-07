@@ -18,12 +18,13 @@ A NestJS application using Fastify with Swagger for API documentation.
     By default, the application will run on port 3000.
 
 
- **Access the API:**
+ ##Access the API:
   Hello Route: http://localhost:3000/api/Hello
   Swagger Documentation: http://localhost:3000/api/docs
 
-  -[]- /api/movie/getAllMovies - {}
-  -[]- /api/movie/addNewMovie -{
+  [] /api/movie/getAllMovies - {}
+  
+  [] /api/movie/addNewMovie -{
     "title": "The Walking Dead",
     "genre": ["horror","Comdey"],
     "name": "The Walking Dead",
@@ -31,15 +32,15 @@ A NestJS application using Fastify with Swagger for API documentation.
     "duration": 139,
     "director": "Ethan"
     }
-  -[]- /api/movie/recommend - 
+    
+  [] /api/movie/recommend - 
   {
   "facebookUrl":"https://www.facebook.com/david.johnson" ,
   "movieName": "Pulp Fiction",
   "rank": 10
 }
 
-
-  -[]- /api/movie/getRecommendations- 
+[] /api/movie/getRecommendations- 
   {
 "facebookUrl": "https://www.facebook.com/robert.taylor"
 }
